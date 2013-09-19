@@ -1,12 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <metadata>
   <groupId>tk.spop</groupId>
-  <artifactId>type-savior</artifactId>
+  <artifactId>meta</artifactId>
   <versioning>
-    <latest>0.0.1-SNAPSHOT</latest>
     <versions>
       <version>0.0.1-SNAPSHOT</version>
     </versions>
-    <lastUpdated>20130919165228</lastUpdated>
+    <lastUpdated>20130919165425</lastUpdated>
   </versioning>
 </metadata>
