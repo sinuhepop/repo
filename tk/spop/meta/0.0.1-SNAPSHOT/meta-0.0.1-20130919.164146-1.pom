@@ -127,8 +127,8 @@
 	<distributionManagement>
 		<repository>
 			<id>spop</id>
-			<url>https://raw.github.com/sinuhepop/repo</url>
-			<!-- <url>https://raw.github.com/sinuhepop/${project.artifactId}/repo/repo</url> -->
+			<url>https://raw.github.com/sinuhepop/repo/master</url>
+			<uniqueVersion>false</uniqueVersion>
 		</repository>
 	</distributionManagement>
 
