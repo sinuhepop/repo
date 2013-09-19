@@ -10,7 +10,6 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 		<java.version>1.7</java.version>
 		<codegen.directory>${project.build.directory}/generated-sources/codegen</codegen.directory>
-		<!-- <github.global.server>github</github.global.server> -->
 	</properties>
 
 	<dependencies>
@@ -107,14 +106,11 @@
 				<configuration>
 					<server>github</server>
 					<message>Maven artifacts for ${project.version}</message>
-					<!-- <noJekyll>true</noJekyll> -->
 					<outputDirectory>${project.build.directory}/repo</outputDirectory>
-					<!-- <branch>refs/heads/repo</branch> -->
 					<branch>refs/heads/master</branch>
-					<includes>
-						<include>**/*</include>
-					</includes>
-					<!-- <repositoryName>meta</repositoryName> -->
+<!-- 					<includes> -->
+<!-- 						<include>**/*</include> -->
+<!-- 					</includes> -->
 					<repositoryName>repo</repositoryName>
 					<repositoryOwner>sinuhepop</repositoryOwner>
 				</configuration>
