@@ -124,12 +124,11 @@
 		</plugins>
 	</build>
 
-	<distributionManagement>
-		<repository>
-			<id>spop</id>
-			<url>https://raw.github.com/sinuhepop/repo/master</url>
-			<uniqueVersion>false</uniqueVersion>
-		</repository>
-	</distributionManagement>
+<!-- 	<distributionManagement> -->
+<!-- 		<repository> -->
+<!-- 			<id>spop</id> -->
+<!-- 			<url>https://raw.github.com/sinuhepop/repo/master</url> -->
+<!-- 		</repository> -->
+<!-- 	</distributionManagement> -->
 
 </project>
